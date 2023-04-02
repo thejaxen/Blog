@@ -9,16 +9,27 @@ const Navbar = () => {
         <div className="logo">
           <img src={Logo} alt="" />
         </div>
+        <span className='usernametext'>Username</span>
+        <span className='logouttext'>Logout</span>
+        <span className='write'> <Link className='link' to='/write'>Write</Link> </span>
         <div className="links">
-          <Link className='link' to='/?cat=art'> <h6> art </h6> </Link>
-          <Link className='link' to='/?cat=science'> <h6> science </h6> </Link>
-          <Link className='link' to='/?cat=technology'> <h6> technology </h6> </Link>
-          <Link className='link' to='/?cat=cinema'> <h6> cinema </h6> </Link>
-          <Link className='link' to='/?cat=design'> <h6> design </h6> </Link>
-          <Link className='link' to='/?cat=food'> <h6> food </h6> </Link>
-          <span>Username</span>
-          <span>Logout</span>
-          <span className='write'> <Link className='link' to='/write'>Write</Link> </span>
+          <Link className='link' to='/?sdg=Goal-1'> <h6> Goal-1 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-2'> <h6> Goal-2 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-3'> <h6> Goal-3 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-4'> <h6> Goal-4 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-5'> <h6> Goal-5 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-6'> <h6> Goal-6 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-7'> <h6> Goal-7 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-8'> <h6> Goal-8 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-9'> <h6> Goal-9 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-10'> <h6> Goal-10 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-11'> <h6> Goal-11 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-12'> <h6> Goal-12 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-13'> <h6> Goal-13 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-14'> <h6> Goal-14 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-15'> <h6> Goal-15 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-16'> <h6> Goal-16 </h6> </Link>
+          <Link className='link' to='/?sdg=Goal-17'> <h6> Goal-17 </h6> </Link>
         </div>
       </div>
     </div>
