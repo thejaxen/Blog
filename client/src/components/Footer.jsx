@@ -1,15 +1,18 @@
-import React from 'react'
-import Logo from "../img/logo.png"
+import React from 'react';
+import Logo from '../img/logo.png';
 
 const Footer = () => {
   return (
     <footer>
       <div className="logo">
-          <img src={Logo} alt="" />
-        </div>
-        <span> <b>Made for GLB</b> </span>
+        <img src={Logo} alt="" />
+      </div>
+      <span>
+        <b>Made by </b>
+        <a href="https://github.com/GLB-Blog" className="footer-link">GLB-Blog</a>
+      </span>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
