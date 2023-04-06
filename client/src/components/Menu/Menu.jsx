@@ -35,9 +35,9 @@ function Menu() {
       {posts.map((post) => {
       return(
       <div className='post-card' key={post.id}>
-          <img src = {post.img}></img>
+          <img src = {post.img} className= "postImg"></img>
           <h2> {post.title}</h2>
-          <button>Read More</button>
+          <button className="postButton">Read More</button>
         </div> )
       })}
     </div> 
