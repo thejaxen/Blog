@@ -1,12 +1,15 @@
 import React from 'react';
 import Logo from '../img/logo.png';
 import SDG from  '../img/sdg17.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <footer>
       <div className="logo">
-        <img src={Logo} alt="" />
+          <Link to='/'>
+            <img src={Logo} alt=""/>
+          </Link>
       </div>
       <div className="sdg17">
         <img src={SDG} alt="" />
