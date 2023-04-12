@@ -1,0 +1,35 @@
+/* adamın css de menu ıcın yazdıklarını sende burdakı dosya ıcın yaz */ 
+
+.post-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2{
+    font-size: 20px;   
+}
+
+.postImg{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+  .postButton {
+    width: 300px;
+     padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+   border: 1.5px solid rgb(3, 7, 30);
+    color: rgb(3, 7, 30);
+  }
+
+  .postButton:hover {
+    border: 1.5px solid rgb(3, 7, 30);
+     background-color: rgb(157, 2, 8);
+     color: rgb(237, 242, 244);
+  }
