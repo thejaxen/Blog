@@ -100,6 +100,10 @@ const Write = () => {
           <input type="radio" name="category" value="SDG-1" id="SDG-1"/>
           <label htmlFor="SDG-1">SDG-17</label>
           </div>
+          <div className="cat">
+          <input type="radio" name="category" value="SDG-1" id="SDG-1"/>
+          <label htmlFor="SDG-1">All</label>
+          </div>
         </div>
       </div>
     </div>
