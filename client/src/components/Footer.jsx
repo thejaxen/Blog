@@ -8,9 +8,7 @@ const Footer = () => {
       <div className="logo">
         <img src={Logo} alt="" />
       </div>
-      <div className="sdg17">
-        <img src={SDG} alt="" />
-      </div>
+      
 
       <span>
         <b>Made by </b>
